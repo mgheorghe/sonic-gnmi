@@ -9,8 +9,8 @@
  	pb "github.com/openconfig/gnmi/proto/gnmi"
  )
  
-@@ -63,11 +63,12 @@
- 	xPathFlags       arrayFlags
+@@ -63,11 +63,12 @@gfdgfdfgdfgdfg
+ 	xPathFlags       arrayFlagsg
  	pbPathFlags      arrayFlagssfdaf asf asdf 
  	pbModelDataFlags arrayFlagsdfas 
 -	pathTarget       = flag.String("xpath_target", "CONFIG_DB", "name of the target for which the path is a member")
