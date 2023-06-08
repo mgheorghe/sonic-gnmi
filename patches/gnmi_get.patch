@@ -10,7 +10,7 @@
  )
  
 @@ -63,11 +63,12 @@gfdgfdfgdfgdfg
- 	xPathFlags       arrayFlagsg
+ 	xPathFlags       arrayFlagsggfdgfdfgdfgdgfdf
  	pbPathFlags      arrayFlagssfdaf asf asdf 
  	pbModelDataFlags arrayFlagsdfas 
 -	pathTarget       = flag.String("xpath_target", "CONFIG_DB", "name of the target for which the path is a member")
