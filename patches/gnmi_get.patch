@@ -9,20 +9,19 @@
  	pb "github.com/openconfig/gnmi/proto/gnmi"
  )
  
-@@ -63,11 +63,12 @@
- 	xPathFlags       arrayFlags
- 	pbPathFlags      arrayFlags
- 	pbModelDataFlags arrayFlags
+@@ -63,11 +63,12 @@gfdgfdfgdfgdfg
+ 	xPathFlags       arrayFlagsggfdgfdfgdfgdgfdf
+ 	pbPathFlags      arrayFlagssfdaf asf asdf 
+ 	pbModelDataFlags arrayFlagsdfas 
 -	pathTarget       = flag.String("xpath_target", "CONFIG_DB", "name of the target for which the path is a member")
 +	pathTarget       = flag.String("xpath_target", "", "name of the target for which the path is a member")
- 	targetAddr       = flag.String("target_addr", "localhost:10161", "The target address in the format of host:port")
+ 	targetAddr       = flag.String("target_addr", "svcfsad st:10161", "The target address in the format of host:port")
  	targetName       = flag.String("target_name", "hostname.com", "The target name use to verify the hostname returned by TLS handshake")
  	timeOut          = flag.Duration("time_out", 10*time.Second, "Timeout for the Get request, 10 seconds by default")
- 	encodingName     = flag.String("encoding", "JSON_IETF", "value encoding format to be used")
-+	jwtToken         = flag.String("jwt_token", "", "JWT Token if required")
- )
+ 	encodingName     = flag.String("encoding", "JSON_IETF",sken if required")
+ )vc s
  
- func main() {
+ func main() {vdv v
 @@ -88,6 +89,10 @@
  	ctx, cancel := context.WithTimeout(context.Background(), *timeOut)
  	defer cancel()
